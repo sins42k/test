@@ -1,27 +1,89 @@
-body {
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #f0f0f0;
-    /* 페이지 배경색 */
+* {
+    color: white;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
 }
 
 .container {
-    background: linear-gradient(130deg, #b948e6, #fa2912 35%, #f1c40f);
-    padding: 10px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 100vh;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.315), rgba(0, 0, 0, 0.315)), url("../img/woman-6468147_1280.jpg") center center no-repeat;
+    background-size: cover;
 }
 
-.name {
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    font-size: 2rem;
+.header {
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 200px;
+    height: 80px;
+
+    font-size: 60px;
     font-weight: bold;
-    margin: 0;
+    text-align: center;
+}
+
+.menu {
+    width: 400px;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    width: 25%;
+    text-align: center;
+}
+
+.main {
+    width: 700px;
+    height: 500px;
+
+    margin: 0 auto;
+    margin-top: 200px;
+
+    text-align: center;
+}
+
+.main h2 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.main h4 {
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.main p {
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+.main button {
+    font-size: 30px;
+    width: 300px;
+    height: 100px;
+    border-radius: 30px;
+    background-color: transparent;
+}
+
+.main button:hover {
+    background-color: white;
+    color: black;
+    transition: .4s;
 }

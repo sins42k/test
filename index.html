@@ -1,16 +1,44 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Name</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/styles.css">
+    <style>
+        body {
+            user-select: none;
+            margin: 0;
+        }
+
+        body::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
     <div class="container">
-        <p class="name">최정우 instagram style</p>
+        <div class="header">
+            <div class="logo">
+                CJW
+            </div>
+            
+            <ul class="menu">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <h2>Welcome To My Homepage</h2>
+            <h4>I`m A Web Developer</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt atque est voluptates, accusamus expedita perspiciatis itaque qui dignissimos earum sit natus fugiat adipisci dolor temporibus nisi maxime? Nostrum, in facilis.</p>
+            <button>Download file</button>
+        </div>
     </div>
 </body>
 
