@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f0f0f0;
+    /* 페이지 배경색 */
+}
+
+.container {
+    background: linear-gradient(130deg, #b948e6, #fa2912 35%, #f1c40f);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name {
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
