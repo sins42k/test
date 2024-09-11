@@ -1,5 +1,11 @@
 * {
-    color: white;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 a {
@@ -11,10 +17,14 @@ li {
     list-style-type: none;
 }
 
+.container * {
+    color: white;
+}
+
 .container {
     height: 100vh;
 
-    background: linear-gradient(rgba(0, 0, 0, 0.315), rgba(0, 0, 0, 0.315)), url("../img/woman-6468147_1280.jpg") center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.315), rgba(0, 0, 0, 0.315)), url("./woman-6468147_1280.jpg") center center no-repeat;
     background-size: cover;
 }
 
@@ -86,4 +96,68 @@ li {
     background-color: white;
     color: black;
     transition: .4s;
+}
+
+.about {
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+
+    margin-top: 200px;
+}
+
+.about h2 {
+    font-size: 30px;
+    color: #FF6A6A;
+}
+
+.about h1 {
+    font-size: 50px;
+}
+
+.about .contents {
+    width: 1200px;
+    height: 500px;
+    display: flex;
+}
+
+.about .left {
+    width: 400px;
+    height: 400px;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.315), rgba(0, 0, 0, 0.315)), url("./42565401.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.about .right {
+    width: 800px;
+    height: 500px;
+    padding-left: 10px;
+}
+
+.about .right h3 {
+    font-size: 30px;
+    color: #FF6A6A;
+}
+
+.about .right li {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.about .right li i {
+    font-size: 45px;
+    margin-left: 10px;
+}
+
+.fa-youtube {
+    color: red;
+}
+
+.fa-github {
+    color: black;
+}
+
+.fa-facebook {
+    color: blue;
 }
